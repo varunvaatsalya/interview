@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function Home() {
   return (
     <>
-      <div className="flex flex-col justify-center h-screen">
+      <div className="flex flex-col justify-center h-screen text-gray-950 dark:text-gray-100">
         <div className="text-5xl font-bold text-center px-4 py-12">
           {" "}
           VARUN GUPTA{" "}

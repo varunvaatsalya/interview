@@ -128,7 +128,7 @@ function Leaderboard() {
   }
   return (
     <>
-      <div className="fixed top-0 w-full bg-gray-100 dark:bg-gray-950">
+      <div className="fixed top-0 w-full bg-gray-100 dark:bg-gray-950 text-gray-950 dark:text-gray-100">
         <Navbar />
         <hr className="border border-slate-300 dark:border-slate-800 w-full my-2 md:hidden" />
         <div className="font-bold text-3xl text-center my-2">Leaderboard</div>
