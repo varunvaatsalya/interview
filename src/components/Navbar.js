@@ -102,7 +102,7 @@ function Navbar() {
             <IoMdArrowDropdown />
           </div>
         </div>
-        <div className="absolute right-5 -bottom-12" onClick={toggletheme}>
+        <div className="absolute right-5 -bottom-12 cursor-pointer" onClick={toggletheme}>
           {!dark?<BsFillBrightnessHighFill className="size-7" />:
           <FiMoon className="size-7" />}
         </div>
