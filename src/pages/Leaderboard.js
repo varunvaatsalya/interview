@@ -132,7 +132,7 @@ function Leaderboard() {
         <Navbar />
         <hr className="border border-slate-300 dark:border-slate-800 w-full my-2 md:hidden" />
         <div className="font-bold text-3xl text-center my-2">Leaderboard</div>
-        <header className="h-12 w-[98%] md:w-[90%] bg-gray-300 dark:bg-slate-900 mx-auto rounded-xl flex items-center px-4 font-bold my-2 md:my-4 text-sm md:text-base">
+        <header className="h-12 w-[98%] md:w-[90%] bg-slate-200 dark:bg-slate-900 mx-auto rounded-xl flex items-center px-4 font-bold my-2 md:my-4 text-sm md:text-base">
           <div className="w-[20%] md:w-[7%]">Rank</div>
           <div className="w-[36%] md:w-[18%]">Name</div>
           <div className="w-[28%] md:w-[15%] text-center">Calmar Ratio</div>
@@ -151,7 +151,7 @@ function Leaderboard() {
       <div className="w-full mt-52">
         {users.map((user, key) => {
           return (
-            <div className="w-[98%] md:w-[90%] py-5 bg-gray-300 dark:bg-gray-900 rounded-2xl mx-auto my-3 ">
+            <div className="w-[98%] md:w-[90%] py-5 bg-slate-200 dark:bg-gray-900 rounded-2xl mx-auto my-3 ">
               <div className="flex items-center px-2 md:px-4 font-medium">
                 <div className="w-[20%] md:w-[7%] pl-2 flex items-center gap-1">
                   <span className="font-bold">{user.rank}.</span>

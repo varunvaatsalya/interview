@@ -12,8 +12,8 @@ function Home() {
         </div>
         <div className="text-xl font-semibold text-center px-4">
           {" "}
-          here is your leaderboard and scanner page which is responsive for all
-          devices{" "}
+          here is your leaderboard and scanner page which is <span className="bg-slate-300 dark:bg-slate-800 p-1 rounded-lg">Responsive</span> for all
+          devices<br/> with <span className="bg-slate-300 dark:bg-slate-800 p-1 rounded-lg ">Light & dark Mode</span> also{" "}
         </div>
 
         <div className="flex flex-col md:flex-row justify-center items-center gap-8 text-3xl py-24 w-full">
